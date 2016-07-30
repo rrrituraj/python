@@ -1,0 +1,11 @@
+#it implements the DictionaryType
+#here I am going to solve the example 11.1
+#it reads the word from the word.txt and write it to keys in DictionaryType
+def make_word_dict(n):
+    f = open(n)
+    dcnr = dict()
+    for i in f.read().split():
+        print i
+        dcnr[i] = ''
+    print dcnr
+make_word_dict('C:\Users\RITURAJ\Desktop\python example\words.txt')

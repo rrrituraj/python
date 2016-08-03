@@ -1,6 +1,7 @@
-#this will print the dictionary in the order of sorted by their value
+#this will print the dictionary in the order of sorted by their values
 def print_hist(s):
    # S is the dictionary passed as an argument
    for w in sorted(x, key=x.get, reverse=False):
         #sorted function is used for sorting the dictionary by their values
         print w, x[w]
+

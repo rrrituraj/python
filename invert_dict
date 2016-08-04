@@ -1,0 +1,10 @@
+#This function reverse the key and value pair of dictionary
+#It is implemented via setdefault function
+#Done by rituraj on 4 august 2016
+def invert_dict(d):
+    inverse = {}
+    for key, val in d.items():
+        inverse.setdefault(val, []).append(key)
+    return inverse
+d = {'a':1,'p':1,'r':2,'t':1,'o':1}
+print invert_dict(d)

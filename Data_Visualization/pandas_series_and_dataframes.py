@@ -4,6 +4,7 @@ Created on Tue Sep  6 21:43:31 2016
 
 @author: RITURAJ
 """
+'''remove multicomment from each block one by one and enjoy'''
 import numpy as np
 from pandas import Series, DataFrame
 '''
